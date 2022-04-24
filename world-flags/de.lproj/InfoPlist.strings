@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  world-flags
+
+  Created by Nozhan Amiri on 4/24/22.
+  
+*/
+
+"NSPhotoLibraryAddUsageDescription" = "Wir benötigen Zugriff auf Ihre Fotos, um die Lieblingsflaggen zu sichern.";

@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  world-flags
+
+  Created by Nozhan Amiri on 4/24/22.
+  
+*/
+
+/* Countries */
+"Countries" = "Countries";
+"spain" = "Spain";
+"nigeria" = "Nigeria";
+"italy" = "Italy";
+"ireland" = "Ireland";
+"germany" = "Germany";
+"poland" = "Poland";
+"russia" = "Russia";
+"estonia" = "Estonia";
+"uk" = "United Kingdom";
+"us" = "United States";
+"france" = "France";
+"monaco" = "Monaco";

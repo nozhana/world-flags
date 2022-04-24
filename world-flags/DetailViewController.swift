@@ -19,7 +19,7 @@ class DetailViewController: UIViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
 
         if let imageToLoad = selected {
-            title = (imageToLoad == "uk" || imageToLoad == "us") ? imageToLoad.uppercased() : imageToLoad.capitalized
+            title = NSLocalizedString(imageToLoad, comment: "Country name")
             imageView.image = UIImage(named: imageToLoad)
             imageView.layer.borderWidth = 4
             imageView.layer.borderColor = UIColor.lightGray.cgColor

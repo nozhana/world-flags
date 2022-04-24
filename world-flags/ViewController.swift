@@ -52,7 +52,7 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Countries"
+        title = NSLocalizedString("Countries", comment: "Countries")
         
         navigationController?.navigationBar.prefersLargeTitles = true
         
@@ -83,7 +83,7 @@ class ViewController: UITableViewController {
         var content = cell.defaultContentConfiguration()
         let country = countries[indexPath.row]
         
-        content.text = (country == "uk" || country == "us") ? country.uppercased() : country.capitalized
+        content.text = NSLocalizedString(country, comment: "Country name")
         content.image = UIImage(named: country)?.scaledDown(by: 0.5)!
         
         cell.contentConfiguration = content

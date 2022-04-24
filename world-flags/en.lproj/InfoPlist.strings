@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  world-flags
+
+  Created by Nozhan Amiri on 4/24/22.
+  
+*/
+
+"NSPhotoLibraryAddUsageDescription" = "We need access to your Camera Roll to save the flags you like.";
