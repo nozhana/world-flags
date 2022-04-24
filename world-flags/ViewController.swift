@@ -90,6 +90,13 @@ class ViewController: UITableViewController {
         return cell
     }
 
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController else { return }
+        
+        vc.selected = countries[indexPath.row]
+        
+        navigationController?.pushViewController(vc, animated: true)
+    }
 
 }
 
